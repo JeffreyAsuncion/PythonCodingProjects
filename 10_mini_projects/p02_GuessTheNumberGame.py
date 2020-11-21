@@ -11,6 +11,21 @@ then a message print saying “you guess right
 Topics: random module, for loop, f strings
 """
 
+import random
+
+high_end = 100
+# be able to generate a random number
+num = random.randint(1, high_end)
+print(num)
+
+guess = int(input("Enter your guess: "))
+if guess == num:
+    print("You Chose Wisely.")
+else:
+    print("You Chose Poorly.")
+
+
+
 
 # import random
 # number = random.randint(1,10)

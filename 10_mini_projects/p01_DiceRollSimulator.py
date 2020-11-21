@@ -4,7 +4,7 @@ The goal is to create a program
 that will simulate the roll of dice.
 
 Topics: random module, looping, and if-else
-Hint: Using a random module generate a random 
+Hint: Using a random module generate a random https://github.com/JeffreyAsuncion/PythonCodingProjects.git
 number between the range from 1 to 6 when the user wants.
 """
 
@@ -35,9 +35,10 @@ while True:
         print("rolling dice...")
         print("You rolled")
         print(random.randint(1, num_sided_dice))
-        print("@"*25)
+        print("@"*25+"\n")
     elif choice == 2:
+        print("Goodbye, Signing off.")
         break
     else:
         print("*" *25)
-        print("*" *25)
+        print("*" *25+"\n")
